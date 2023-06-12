@@ -6,10 +6,12 @@ describe('RestritoComponent', () => {
   let component: RestritoComponent;
   let fixture: ComponentFixture<RestritoComponent>;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [RestritoComponent]
-    });
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ RestritoComponent ]
+    })
+    .compileComponents();
+
     fixture = TestBed.createComponent(RestritoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

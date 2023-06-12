@@ -1,11 +1,5 @@
 import { Component } from '@angular/core';
-import {MatIconModule} from '@angular/material/icon';
-import {MatButtonModule} from '@angular/material/button';
-import {MatToolbarModule} from '@angular/material/toolbar';
-
-/**
- * @title Toolbar overview
- */
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-menu',
@@ -13,5 +7,5 @@ import {MatToolbarModule} from '@angular/material/toolbar';
   styleUrls: ['./menu.component.css']
 })
 export class MenuComponent {
-
+    
 }
